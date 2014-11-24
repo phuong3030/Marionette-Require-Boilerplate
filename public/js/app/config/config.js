@@ -5,7 +5,7 @@ require.config({
     paths:{
         // Core Libraries
         "jquery":"../libs/jquery",
-        //"jqueryui":"../libs/jqueryui",
+        "jqueryui":"../libs/jqueryui",
         "jquerymobile":"../libs/jquery.mobile",
         "underscore":"../libs/lodash",
         "backbone":"../libs/backbone",
@@ -28,7 +28,7 @@ require.config({
         // Twitter Bootstrap jQuery plugins
         "bootstrap":["jquery"],
         // jQueryUI
-        //"jqueryui":["jquery"],
+        "jqueryui":["jquery"],
         // jQuery mobile
         "jquerymobile":["jqueryui"],
 
